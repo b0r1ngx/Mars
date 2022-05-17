@@ -24,8 +24,8 @@ class MarsViewModel : ViewModel() {
     init { getMarsPhotos() }
 
     /**
-     * Gets Mars photos information from the Mars API Retrofit service and updates the
-     * [MarsPhoto] [List] [LiveData]
+     * Gets Mars photos information from the Mars API Retrofit service
+     * and updates the [LiveData]
      */
     private fun getMarsPhotos() {
         try {
